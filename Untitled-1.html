@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coleta de Lixo Sustentável</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        header {
+            background: #2ecc71;
+            color: #fff;
+            padding: 1rem 0;
+        }
+        header h1 {
+            text-align: center;
+            margin-bottom: 0.5rem;
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+        nav ul li {
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        main {
+            padding: 2rem;
+        }
+        main section {
+            margin-bottom: 2rem;
+        }
+        main section h2 {
+            margin-bottom: 1rem;
+            color: #2ecc71;
+        }
+        main .ilustracao {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+        main .ilustracao img {
+            max-width: 50%;
+            height: auto;
+        }
+        .dicas-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .dica {
+            flex: 1 1 calc(50% - 2rem);
+            background: #f4f4f4;
+            padding: 1rem;
+            border-radius: 8px;
+        }
+        #impacto {
+            margin-top: 2rem;
+            padding: 1rem;
+            background: #e0e0e0;
+            border-radius: 8px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+            }
+
+            nav ul li {
+                margin: 0.5rem 0;
+            }
+
+            main .ilustracao {
+                flex-direction: column;
+            }
+
+            .dicas-container {
+                flex-direction: column;
+            }
+
+            .dica {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Coleta de Lixo Sustentável</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#separacao">Separação do Lixo</a></li>
+                <li><a href="#oleo">Descarte de Óleo</a></li>
+                <li><a href="#pilhas">Descarte de Pilhas e Baterias</a></li>
+                <li><a href="#dicas">Dicas Sustentáveis</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Bem-vindo ao nosso site de Coleta de Lixo Sustentável</h2>
+            <p>Nosso objetivo é promover práticas de descarte correto de resíduos para um futuro mais sustentável.</p>
+        </section>
+        <section id="separacao">
+            <h2>Como Separar o Lixo</h2>
+            <div class="ilustracao">
+                <img src="https://static.escolakids.uol.com.br/conteudo_legenda/0d6993761c48c093ee3c26ef51780367.jpg" alt="Lixo Orgânico">
+                <img src="https://i.pinimg.com/564x/28/ff/3d/28ff3dac9b17e4d69de8f7e87054ec69.jpg" alt="Lixo Reciclável">
+            </div>
+            <p>É importante separar o lixo orgânico dos recicláveis. Lixo orgânico inclui restos de comida, cascas de frutas e legumes,
+                 enquanto recicláveis incluem papel, plástico, vidro e metal.</p>
+        </section>
+        <section id="ideias-reutilizacao">
+            <h3>Ideias de Reutilização de Lixo</h3>
+            <div class="dicas-container">
+                <div class="dica">
+                    <h3>Lixo Orgânico</h3>
+                    <p>Transforme restos de comida e cascas de frutas e legumes em compostagem para adubar jardins e hortas.</p>
+                    <p>Use borra de café como fertilizante natural e repelente de insetos.</p>
+                    <p>Casca de ovo triturada pode ser utilizada como adubo rico em cálcio para plantas.</p>
+                </div>
+                <div class="dica">
+                    <h3>Lixo Reciclável</h3>
+                    <p>Reutilize potes de vidro como recipientes de armazenamento ou decoração.</p>
+                    <p>Transforme garrafas PET em vasos para plantas ou artesanato.</p>
+                    <p>Crie blocos de rascunho utilizando papel usado derevistas ou impressões não utilizadas.</p>
+                    <p>Utilize embalagens de plástico para criar peças de arte ou brinquedos educativos.</p>
+                    </div>
+                    </div>
+                    </section>
+        <section id="oleo">
+            <h2>Descarte de Óleo de Cozinha</h2>
+            <div class="ilustracao">
+                <img src="https://ecrie.com.br/sistema/conteudos/imagem/m_76_0_1_21072022170643.jpg" alt="Descarte de Óleo de Cozinha">
+            </div>
+            <p>O óleo de cozinha usado deve ser armazenado em garrafas PET e entregue em pontos de coleta específicos. 
+                Não descarte o óleo no ralo, pois ele polui a água e entope canos.</p>
+        </section>
+        <section id="pilhas">
+            <h2>Descarte de Pilhas e Baterias</h2>
+            <div class="ilustracao">
+                <img src="https://portal.trt14.jus.br/portal/sites/default/files/2019-12/Pilhas%20e%20Oleo_1.png" alt="Descarte de Pilhas e Baterias">
+            </div>
+            <p>Pilhas e baterias contêm materiais tóxicos e devem ser descartadas em locais apropriados, como pontos de coleta em lojas e supermercados.</p>
+         </section>
+        <section id="dicas">
+            <h2>Dicas Sustentáveis</h2>
+            <div class="dicas-container">
+                <div class="dica">
+                    <h3></h3>
+                    <p>Reduza o consumo de plástico utilizando sacolas reutilizáveis, evite desperdício de água e energia e opte por produtos biodegradáveis.</p>
+                </div>
+                <div class="dica">
+                    <h3></h3>
+                    <p>Ensine as crianças a importância da reciclagem e do reaproveitamento de materiais. Faça atividades lúdicas com itens recicláveis.</p>
+                </div>
+                <div class="dica">
+                    <h3></h3>
+                    <p>Utilize produtos de higiene e alimentação eco-friendly para seus pets e descarte dejetos de forma correta, utilizando sacolas biodegradáveis.</p>
+                </div>
+                <div class="dica">
+                    <h3></h3>
+                    <p>Encoraje os idosos a participarem de programas de reciclagem e a adotarem práticas sustentáveis no dia a dia, como economizar água e energia.</p>
+                </div>
+            </div>
+            <section id="impacto">
+                <h3>Impacto na Vida da Sociedade</h3>
+                <p>Práticas sustentáveis ajudam a reduzir a poluição, conservam recursos naturais, e promovem uma melhor qualidade de vida para todos. 
+                    A conscientização e o esforço conjunto são essenciais para um futuro mais verde.</p>
+            </section>
+        </section>
+       
+                    <section id="contato">
+                    <h2>Contato</h2>
+                    <p>Entre em contato conosco para saber mais sobre nossos projetos e como você pode ajudar.</p>
+                    </section>
+                    </main>
+                    <footer>
+                    <p>© 2024 Coleta de Lixo Sustentável. Todos os direitos reservados.</p>
+                    </footer>
+                    
+                    </body>
+                    </html>
